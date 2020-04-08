@@ -2,7 +2,7 @@ di ((web github))
 
 - branch atau cabang
 - konsep branch adalah konsep git
-
+- keitka berpindah branch di git disebut chackout
 =============================================
 - commit (o)
 - branch itu independent/ bisa jalan dengan commitnya sendiri
@@ -14,8 +14,38 @@ di ((web github))
                                   /
     cabang utama/ master --o--o--o
     
+==================================================    
 - Branching
 - membuat git branch
 - membuat snapshot tanpa mengganggu jalur utama (master branch)
 - dilakukan ketika fitur experimental
 - ketika 2 orang mengerjakan repo yang sama
+==========================================================
+cara menambahkan branch (di web github)
+- create new file direpo / edit file yang sudah ada
+  ketika commit pilih "create a new branch for this commit..."
+- klik di repo nya klik branch master > create branch> nama branch
+  ` create new file direpo 
+  ` lihat di commit directly to the "nama branch"
+  
+  
+===========================================================
++++++++++++++++++++++++++ Merge +++++++++++++++++++++++++++
+===========================================================
+cara nge MERGE (di web github)
+- klik compare & pull request
+  - pull request permintaan izin ke yang memiliki repo nya supaya perubahan bisa masuk
+- di repo bisa dilihat di pull request
+  - pesan pull requestnya 
+  - klik merge pull request > bisa balas pesan > confirm merge
+  - pull request successfully
+  
+===========================================================
++++++++++++++++++++++++++ delete BRANCH +++++++++++++++++++
+===========================================================
+- di repo klik branches
+- hapus branch
+
+===========================================================
+++++++++++++++ konflik ketika NGE-MERGE +++++++++++++++++++
+===========================================================
