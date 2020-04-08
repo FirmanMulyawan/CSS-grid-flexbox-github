@@ -1,0 +1,21 @@
+di ((web github))
+
+- branch atau cabang
+- konsep branch adalah konsep git
+
+=============================================
+- commit (o)
+- branch itu independent/ bisa jalan dengan commitnya sendiri
+- dilakukan ketika ingin membuat fitur baru pada repo tanpa mengubah master branch nya 
+  karena mungkin belum yakin fitur tersebut bisa diterapkan atau tidak
+- dalam satu repo bisa ada beberapa branch
+
+                            branch o
+                                  /
+    cabang utama/ master --o--o--o
+    
+- Branching
+- membuat git branch
+- membuat snapshot tanpa mengganggu jalur utama (master branch)
+- dilakukan ketika fitur experimental
+- ketika 2 orang mengerjakan repo yang sama
