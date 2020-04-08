@@ -64,4 +64,6 @@
 - jika ingin menambahkan folder di **(github web)** bisa dengan cara create new file lalu buat "/nama_folder/nama_folder/nama_file"
 - jika ingin melihat history di **(github web)** maka tinggal masuk ke file atau folder tersebut dan klik history
 - jika ingin melihat perubahan secara {{visual}} di **(github web)** maka klik insights > network
+- warna hijau pada history berarti perubahan / penambahan
+- warna merah pada history berarti pengurangan
 
