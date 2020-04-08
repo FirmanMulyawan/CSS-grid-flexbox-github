@@ -1,0 +1,63 @@
+- git dan githab sesuatu yang berbeda
+- GIT adalah Version Control System 
+
+====================================================================
+++++++++++++++++ Version Control System ++++++++++++++++++++++++++++
+====================================================================
+- VCS adalah sistem yang mengelola perubahan dari sebuah dokumen.
+- tujuan utama menggunakan VCS adalah
+	- melacak histori dari perubahan
+	- ketika kolaborasi
+	- sharring
+- VCS = - sebuah sistem yang menyimpan rekaman / perubahan pada sorce code.
+	- memungkinkan bekerja berkolaborasi dengan lebih baik
+	- memungkinkan kita untuk kembali ke keadaan sebelum perubahan (chackout)
+
+
+====================================================================
+++++++++++++++++++++++++++ GIT +++++++++++++++++++++++++++++++++++++
+====================================================================
+- GIT = sebuah software untuk mengelola perubahan file didalam folder.
+- folder nya disebut (repository / repo)
+- commit = riwayat perubahan file disimpan menggunakan serangkaian commit
+- isi dari commit (o)
+	- hash = nomor unik sebagai penanda setiap commit
+	- author = pembuat
+	- date = kapan dilakukan commit
+	- pesan commit nya
+
+	     branch/ cabang
+	      o --o
+	     /     \
+- 	-o--o--o--- o Merge(menggabungkan commit)
+- istilah istilah dalam git 
+- repo			 (folder project kita)
+- commit 		 (rekaman / snapshot dari repo kita)
+- hash			 (penanda unik pada sebuah commit)
+- chackout		 (berpindah ke sebuah commit)
+- branch		 (cabang bebas dari sebuah commit dibuat oleh kita atau orang lain)
+- marge			 (menggabungkan branch)
+- remote		 (sumber yang memiliki repo)
+- clone			 (mengambil repo dari remote)
+- push			 (mengirimkan commit ke repo)
+- pull			 (mengambil commit dari repo)
+====================================================================
+++++++++++++++++++++++++++ GITHUB ++++++++++++++++++++++++++++++++++
+====================================================================
+- sebuah website yang bisa upload file nanti filenya bisa dikelola menggunakan VCS
+- bisa kerja di github tanpa install git (tidak dianjurkan)
+- layanan cloud untuk menyimpan dan mengelola project / repo git.
+- instagram nya programmer
+- github free hanya 3 orang creator
+
+	(github) 	(cloud github)
+	    |			|
+	    |			|
+	    |			|
+	    ^			|
+	    push    commit     pull
+	    |			|
+	    |			|
+		     GIT
+
+- selain github ada bitbucket atau gitlab
