@@ -1,0 +1,50 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-items: flex-start;
+}
+
+
+/* .container::after {
+content: "";
+display: block;
+clear: both;
+} */
+
+
+.container div {
+    /* width: 120px;
+    height: 120px; */
+    background-color: rgb(19, 133, 255);
+    /* float: left; */
+    margin: 2px;
+    flex: 1;
+}
+
+.container div.dua {
+    flex: 2;
+    align-self: center;
+}
+/* .satu {order: 3;}
+.dua {order: 4;}
+.tiga {order: 2;}
+.empat {order: 1;} */
+
+
+/* untuk align-items: baseline */
+/* .container div.tiga {
+font-size: 60px;
+}
+
+.container div.empat {
+    font-size: 100px;
+    } */
