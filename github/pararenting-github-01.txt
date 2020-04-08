@@ -61,5 +61,6 @@
 		     GIT
 
 - selain github ada bitbucket atau gitlab
-- jika ingin menambahkan folder di github bisa dengan cara create new file lalu buat "/nama_folder/nama_folder/nama_file"
+- jika ingin menambahkan folder di **(github web)** bisa dengan cara create new file lalu buat "/nama_folder/nama_folder/nama_file"
+- jika ingin melihat history di **(github web)** maka tinggal masuk ke file tersebut dan klik history
 
