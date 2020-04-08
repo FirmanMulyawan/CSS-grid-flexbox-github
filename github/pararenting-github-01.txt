@@ -47,7 +47,7 @@
 - sebuah website yang bisa upload file nanti filenya bisa dikelola menggunakan VCS
 - bisa kerja di github tanpa install git (tidak dianjurkan)
 - layanan cloud untuk menyimpan dan mengelola project / repo git.
-- instagram nya programmer
+- instagram nya programmer atau apa yahh 
 - github free hanya 3 orang creator
 
 	(github) 	(cloud github)
@@ -62,4 +62,4 @@
 
 - selain github ada bitbucket atau gitlab
 - jika ingin menambahkan folder di github bisa dengan cara create new file lalu buat "/nama_folder/nama_folder/nama_file"
-- ga penting dihapus yahhh
+
