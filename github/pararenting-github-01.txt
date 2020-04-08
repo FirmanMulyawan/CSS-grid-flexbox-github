@@ -61,3 +61,4 @@
 		     GIT
 
 - selain github ada bitbucket atau gitlab
+- jika ingin menambahkan folder di github bisa dengan cara create new file lalu buat "/nama_folder/nama_folder/nama_file"
