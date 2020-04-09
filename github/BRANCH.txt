@@ -49,3 +49,6 @@ cara nge MERGE (di web github)
 ===========================================================
 ++++++++++++++ konflik ketika NGE-MERGE +++++++++++++++++++
 ===========================================================
+- ketika  dua branch merubah pada bagian yang sama maka akan terjadi konflik.
+- master branch harus memilih yang mana yang akan diambil untuk repo nya.
+- 
