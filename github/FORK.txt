@@ -1,0 +1,17 @@
+((website github))
+- akun kita bisa mengunjungi dan melihat repo akun manapun
+- duplikat repo dari akun orang lain beserta history-nya bisa kita duplikat tanpa mengganggu 
+  repo aslinya tetapi sumber repo nya diketahui disebut fork
+  
+  ===========================================
+  fork / forking 
+  - membuat copy / duplikat dari repo orang lain (beserta history-nya)
+  - jembatan antara repo original dan duplikatnya
+  - modifikasi terhadap repo original untuk kita gunakan pada project kita
+  - bisa berkontribusi pada repo orang lain
+  - kita yang berkontribusi pada repo orang lain akan melakukan pull request terhadap repo aslinya
+  - fork tidak sama dengan clone
+  - fork sama clone fungsinya sama menduplikat sebuah repo tetapi kalau fork itu menduplikat
+    repo orang lain untuk pindah ke repo kita, kalau clone itu untuk menduplikat yang ada didalam remote
+    atau di github untuk dicopy kan ke komputer kita
+    
