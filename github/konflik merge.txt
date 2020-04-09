@@ -2,7 +2,8 @@ makanan favorite
 1. ikan
 2. telur 
 3. mie 
-4. mie ayam
+4. ayam geprek
 5. roti
 6. keju
 7. susu
+8. sayuran
