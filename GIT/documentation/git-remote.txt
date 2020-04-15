@@ -42,3 +42,18 @@
  - jika sudah ada 
    + git remote add origin https://github.com/FirmanMulyawan/hallu.git
    + git push -u origin master (-u untuk pertama kali)
+
+===================== GIT FETCH ==========================
+- git fetch (untuk mengecek perubahan di git remote(github))
+- git status
+  + your branch and 'origin/master' have diverged, and have 1 and 1
+    different commits each, respectively.
+    (branch dan 'asal / master' Anda telah menyimpang, dan memiliki 1 dan 1
+    masing-masing berbeda komit.)
+- graph
+- git pull (mengambil repo di github)
+  + CONFLICT : merge conflict in nama-file
+  + cek file yang conflict
+- git add .
+- git commit -m "ada conflict"
+- git push
