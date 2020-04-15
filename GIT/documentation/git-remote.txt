@@ -8,14 +8,22 @@
 
 ================ istilah remote ==================
 - clonning (punya repo di github tapi di komputer belum ada)
-  - biasanya pake HTTPS, kalo pake HTTPS langsung terhubung sama repo yang digithubnya
+  - biasanya pake HTTPS, kalo pake HTTPS langsung terhubung sama repo yang remote
   - kalo download hanya dapat file nya saja, tidak terhubung secara remote
 - git clone nama-coppy-an-httpsnya
 - git remote ((defaultnya origin), remote harus memiliki nama)
-- git remote -v
+- git remote -v (untuk mengetahui originnya)
+  == result
   + origin  https://github.com/FirmanMulyawan/CSS-grid-flexbox-github.git (fetch)
   + origin  https://github.com/FirmanMulyawan/CSS-grid-flexbox-github.git (push)
-- git status
+- git status (melihat status)
   + Your branch is up to date with 'origin/master'
     (branch mu sudah sama dengan origin master)
-- 
+  + Your branch is ahead of 'origin/master' by 1 commit.
+    (branch mu mendahului 1 commit dengan yang di remote)
+- git push (untuk mengirim ke remote di github agar sama dengan di git local)
+- git config --list (melihat configurasi git di local)
+- git config --local (merubah config hanya pada repo tersebut)
+- git config --global user.email "samakan dengan email di github"
+- git config --global user.name "samakan dengan name di github"
+- git commit -am "kalo modifield"
