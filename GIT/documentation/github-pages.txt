@@ -1,0 +1,16 @@
+
+========== GITHUB Pages ============================
+- biasanya menjadi web hosting
+- website static yang dibuat html, css, javascript
+- nama dalam repo di github ngga boleh sembarangan
+  - namaAkun.github.io
+- setiap akun memiliki 1 webhosting github gratis
+
+======== github pages lewat setting ================
+- masuk ke settings
+- github pages 
+  - rubah source ke master pages(branchnya)
+  - namanya seperti ini:
+  - https://firmanmulyawan.github.io/firman-mulyawan-wpu/
+- theme chooser (digunakan ketika dibuat bukan hanya dengan html, css, javascript)
+  - pilih theme
