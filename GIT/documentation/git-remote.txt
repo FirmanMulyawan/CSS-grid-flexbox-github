@@ -27,3 +27,18 @@
 - git config --global user.email "samakan dengan email di github"
 - git config --global user.name "samakan dengan name di github"
 - git commit -am "kalo modifield"
+
+==================================================
+
+============ mengirim git local untuk menjadikan remote ======
+- Initialize this repository with a README (jangan di centang)
+ - jika repo baru 
+   + git init
+   + git add README.md
+   + git commit -m "first commit"
+   + git remote add origin https://github.com/FirmanMulyawan/hallu.git
+   + git push -u origin master
+
+ - jika sudah ada 
+   + git remote add origin https://github.com/FirmanMulyawan/hallu.git
+   + git push -u origin master (-u untuk pertama kali)

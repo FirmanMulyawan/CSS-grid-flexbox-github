@@ -40,7 +40,7 @@ working tree -> *git add* -> staging area -> *git commit* -> history
 =================================================
 
 
-============ ```checkout ke sebuah commit``` ===========
+============ checkout ke sebuah commit ===========
 - git log
 - git checkout hash7digitpertama 
 - masuk ke keadaan detached HEAD (point head lepas dari branch)
@@ -60,4 +60,5 @@ working tree -> *git add* -> staging area -> *git commit* -> history
 - cd (masuk ke folder)
 - cd .. (keluar folder)
 - clear
+- mkdir nama-folder (membuat folder baru)
 =================================================
