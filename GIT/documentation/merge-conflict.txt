@@ -1,0 +1,18 @@
+## di komputer
+
+================ merge conflict =================
+- terjadi karena 2 branch mengerjakan baris yang sama
+   dalam 1 repo
+- masuk ke master
+- git merge nama_branch_yang_akan_dimerge
+  + reasult = ada tulisan "CONFLICT" terus nama file yang conflictnya
+  + automatic merge failed; fix conflicts and then commit result.
+- check file yang conflictnya, biasanya warna ungu ada huruf C nya.
+  + di dalam file warna hijau menunjukkan data yang berubah di branch yang aktif 
+  + di dalam file warna biru menunjukkan data yang berubah di branch yang akan kita gabungkan 
+  + hapus git markernya
+- git add .
+- git commit (kalo tanpa -m akan dipilihkan pesan default)
+
+=================================================
+

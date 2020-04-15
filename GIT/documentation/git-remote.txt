@@ -1,0 +1,21 @@
+================ GIT Remote =====================
+- membuat duplikat repo di komputer ke tempat lain
+- remote bisa ke github, gitlab, bitbucket
+- 1 repo local bisa terhubung ke beberapa remote sekaligus 
+
+==================================================
+
+
+================ istilah remote ==================
+- clonning (punya repo di github tapi di komputer belum ada)
+  - biasanya pake HTTPS, kalo pake HTTPS langsung terhubung sama repo yang digithubnya
+  - kalo download hanya dapat file nya saja, tidak terhubung secara remote
+- git clone nama-coppy-an-httpsnya
+- git remote ((defaultnya origin), remote harus memiliki nama)
+- git remote -v
+  + origin  https://github.com/FirmanMulyawan/CSS-grid-flexbox-github.git (fetch)
+  + origin  https://github.com/FirmanMulyawan/CSS-grid-flexbox-github.git (push)
+- git status
+  + Your branch is up to date with 'origin/master'
+    (branch mu sudah sama dengan origin master)
+- 

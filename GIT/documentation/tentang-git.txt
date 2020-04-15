@@ -1,0 +1,63 @@
+## di komputer 
+============== cara install git ===================
+- download git disini
+https://git-scm.com/
+
+- coosing the default editor used by git
+    +  use visual studio code as git default editor
+- adjusting your path environment
+    + git from the command line and also from 3rd-party software
+
+=================================================
+
+============== 3 area pada repo git =============
+- working tree
+- staging area
+- history (setelah di commit)
+
+working tree -> *git add* -> staging area -> *git commit* -> history
+=================================================
+
+====== perintah perintah git (local) ============
+- git init (menjadikan folder sebagai repo)
+    + initialized empty git repository in ...
+    + otomatis berubah menjadi repo git dengan branch master
+- git add .
+- git status (mengetahui status repo kita)
+- git commit -m "m kependekan dari message"
+  - git config --global user.email "samakan dengan email di github"
+  - git config --global user.name "samakan dengan name di github"
+- git config
+- git branch
+- git help
+- git log (melihat commit-commit apa saja yang pernah dilakukan)
+- git log - 3 (melihat 3 commit terakhir)
+- git log -- nama_file (melihat semua perubahan terkait file tersebut)
+- q (keluar git log)
+- git checkout 5digithashpertama -- namafile (mengembalikan keadaan sebelum commit)
+  + git chackout untuk kembali kesebuah commit
+  + setelah git chackout file nya masuk ke staging area harus dicommit terlebih dahulu
+=================================================
+
+
+============ ```checkout ke sebuah commit``` ===========
+- git log
+- git checkout hash7digitpertama 
+- masuk ke keadaan detached HEAD (point head lepas dari branch)
+  + head ada di commit
+  + jika ingin menambahkan branch baru
+    - git branch nama-branch
+    - git checkout nama-branch yang baru dibuat
+    - kalo dicommit masuk ke branch baru
+=================================================
+
+
+============== perintah sell ====================
+- pwd (print working directory)
+  + mengetahui folder yang sedang diakses
+- ls (list)
+  + mengetahui folder apa saja di directory
+- cd (masuk ke folder)
+- cd .. (keluar folder)
+- clear
+=================================================
