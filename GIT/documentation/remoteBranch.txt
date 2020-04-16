@@ -1,0 +1,54 @@
+==================== Remote Branch =========================
+- saat kita membuat branch di repo kita, lalu branch tersebut kita usulkan
+  perubahan ke repo sumbernya/ aslinya.
+-  pull request (ketika kita mengajukan perubahan untuk disetujui dan diterima oleh pemilik aslinya)
+=============================================================
+
+
+=================== study kasus ==============================
+- fork ke akun orang lain
+- sama kan repo kita dengan repo orang lain saat melakukan perubahan
+- cek dilokal kita dengan fetch lalu merging. samakan terlebih dahulu local 
+  dengan sumber, lalu local dengan master kita di github.
+- ketika yang melakukan fork melakukan perubahan dan ingin mengajukan perubahan 
+  ke akun orang lain.
+- pull request (permintaan agar perubahan kita ditarik masuk ke dalam repo orang lain)
+- sebaiknya repo master yang punya kita di github jangan dirubah, biarkan sama dengan repo aslinya.
+- kalau mau melakukan perubahan, buat branch dulu, nanti yang diusulkan
+  branch baru tersebut.
+- master selalu disinkronkan dengan repo aslinya.
+==============================================================
+
+===================== remote Branch implementation ===========
+- git branch feastures
+- git checkout features
+- git status
+- git commit -am "mengubah tulisan"
+- git push origin features(nama branch)
+- masuk ke akun github repo kita
+- ubah branch nya ke feastures
+- klik compare & pull request
+- create pull request
+
+==============================================================
+
+======================= ketika di akun orang lain ===========
+- buka github 
+- klik pull requests
+- lihat bisa di commitnya, files changed
+- files changed -> review changes -> 
+- conversation -> merge pull request -> confirm merge
+==============================================================
+
+========= agar repo di orang lain sama dengan repo punya kita =
+- graph
+- git fetch sandhikagalih 
+- graph
+- git branch
+- git checkout master
+- git merge sandhikagalih/master 
+- git push origin master
+- git branch -d features
+- git push origin --delete features
+
+==============================================================
