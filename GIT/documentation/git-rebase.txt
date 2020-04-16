@@ -1,0 +1,68 @@
+{{susah ini 
+
+================= REBASE ==========================
+- merupakan cara untuk memilih git workflow
+- sebelumnya git workflow nya adalah "merge".
+- rebase adalah cara lain dalam alur pengerjaan yang tidak menggunakan merging.
+
+
+          features
+             o---o
+            /    master        
+---o---o---o      
+        master
+    (fast forward merge)(merge)
+
+
+masalahnya 
+
+
+          features
+             o---o
+            /     \ features
+---o---o---o---o---o      
+            master  master
+   theree-way merge(merge commit)
+
+
+- problemnya adalah commitnya jadi banyak (susah untuk ngetracknya)
+- ketika kita membuat branch, idealnya adalah semua yang dilakukan
+  fast forward merging supaya ngga nambah commit baru.
+==============================================================
+
+
+
+================= study kasus ==============================
+
+          features
+             o---o
+            /    
+---o---o---o---o
+            master  
+
+            ````setelah rebase````
+
+              features
+                 o---o
+                /    
+---o---o---o---o
+            master
+
+
+# colaborasi repo 
+- masuk ke settings
+- masuk ke manage access
+- Invinite a collaborator (username, full name, email)
+- orang yang dijadikan collaborator harus accept terlebih dahulu
+
+- setelah accept clone repo nya
+- git checkout -b fiture_keren (buat branch sekaligus checkout)
+- git commit -am "isi pesan"
+- git checkout master
+- git pull
+- graph
+- git checkout fiture_keren
+- git rebase master
+- git checkout master
+- git rebase fiture_keren
+=====================================================
