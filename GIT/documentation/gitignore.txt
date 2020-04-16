@@ -1,0 +1,18 @@
+================= GITIGNORE =================================
+.gitignore 
+- sebuah file yang bisa disimpan di repo git, agar ketika kita melakukan
+  add dan commit ada file yang tidak ikut terbawa ke dalam add nya.
+- contohnya: ketika tidak ingin file sistem ikut terbawa 
+             + di macos .DS_Store (hidden)
+             + di windows thams
+
+
+=========================================
+- bikin sebuah file .gitignore
+- config.txt (kalo bentuknya file)
+- data/ (kalo bentuknya folder)
+- *.exe (semua file yang bentuknya exe)
+=========================================
+
+referensi: - https://github.com/github/gitignore
+           - http://gitignore.io/ 
