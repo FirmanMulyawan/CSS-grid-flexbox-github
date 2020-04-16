@@ -1,0 +1,41 @@
+============== multiple remote ===========================
+- bagaimana kita bisa terhubung ke beberapa remote sekaligus
+- 
+
+==========================================================
+
+======= study kasus terhubung ke dua remote dengan kondisi dua commit yang sama=============================
+- fork ke repo orang lain (github)
+- setelah repo ada di akun github kita, clone ke local
+- git remote (origin)
+- git remote -v 
+  + origin https://github.com/FirmanMulyawan/wpu-vcard-design.git (fetch)
+  + origin https://github.com/FirmanMulyawan/wpu-vcard-design.git (push)
+- untuk uptudate ke repo orang lain 
+  + git remote add sandhikagalih https://github.com/sandhikagalih/wpu-vcard-design.git
+  + git remote
+    + origin
+    + sandhikagalih
+  + git remote -v
+    + origin https://github.com/FirmanMulyawan/wpu-vcard-design.git (fetch)
+    + origin https://github.com/FirmanMulyawan/wpu-vcard-design.git (push)
+    + sandhikagalih	https://github.com/sandhikagalih/wpu-vcard-design.git (fetch)
+    + sandhikagalih	https://github.com/sandhikagalih/wpu-vcard-design.git (push)
+  + alias graph="git log --all --decorate --oneline --graph"
+  + graph
+  + git fetch sandhikagalih
+    + From https://github.com/sandhikagalih/wpu-vcard-design
+    + * [new branch]      master     -> sandhikagalih/master
+(sudah terhubung ke dua remote dengan kondisi dua commit yang sama)
+
+
+================================================================
+
+
+==================== orang lain merubah reponya ================
+- sebagai pelaku fork ingin tau ada perubahan di repo orang lain
+- mengetahui repo orang lain berubah harus di fetch lagi
+- git fetch sandhikagalih
+- graph
+- git merge sandhikagalih/master
+- git push -u origin master
